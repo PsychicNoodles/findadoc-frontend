@@ -101,7 +101,7 @@ export default {
       {
         config: {
           /* eslint-disable-next-line no-undef */
-          apiKey: process.env.FIREBASE_API_KEY,
+          apiKey: process.env.LASHAWN_FIREBASE_API_KEY,
           authDomain: "findadoc-bc230.firebaseapp.com",
           databaseURL: "https://findadoc-bc230-default-rtdb.firebaseio.com",
           projectId: "findadoc-bc230",
