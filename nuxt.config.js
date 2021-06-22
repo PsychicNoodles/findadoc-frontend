@@ -151,6 +151,10 @@ export default {
 
   toast: {
     position: "top-right",
+    duration: 3000,
+    keepOnHover: true,
+    iconPack: "mdi",
+    className: "v-application",
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
