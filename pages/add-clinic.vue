@@ -133,6 +133,7 @@ export default {
             .collection("pending")
             .add(clinic)
             .then(() => console.log("added to db", this.clinic))
+            .then(() => this.$toast.success("Thank you for your submission!"))
             .then(this.$router.push("/"));
         } catch (err) {
           console.log(err);

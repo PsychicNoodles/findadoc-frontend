@@ -146,7 +146,12 @@ export default {
         },
       },
     ],
+    "@nuxtjs/toast",
   ],
+
+  toast: {
+    position: "top-right",
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
